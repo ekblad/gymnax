@@ -6,6 +6,7 @@ from .point_robot import PointRobot
 from .reacher import Reacher
 from .swimmer import Swimmer
 from .pong import Pong
+from .foljax import Foljax
 
 __all__ = [
     "BernoulliBandit",
@@ -16,4 +17,5 @@ __all__ = [
     "Reacher",
     "Swimmer",
     "Pong",
+    "Foljax",
 ]
